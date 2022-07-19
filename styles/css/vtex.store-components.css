@@ -14,7 +14,7 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #132031;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -110,4 +110,9 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.imageElement--msi-banner {
+	display: block;
+	margin: 0px auto;
 }

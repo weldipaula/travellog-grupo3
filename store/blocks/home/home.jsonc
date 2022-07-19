@@ -8,7 +8,6 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
       "rich-text#question",
       "rich-text#link",
       "newsletter"
@@ -22,13 +21,10 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://storage-asset.msi.com/global/picture/news/2020/monitor/for-every-gamer-20200409-1.jpg",
+          "mobileImage": "https://storage-asset.msi.com/global/picture/news/2020/monitor/for-every-gamer-20200409-1.jpg"
         }
+		// colocar outro banner em seguida neste array
       ]
     }
   },
@@ -47,7 +43,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Novos Produtos",
       "blockClass": "shelfTitle"
     }
   },
@@ -71,20 +67,6 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
     }
   },
 
