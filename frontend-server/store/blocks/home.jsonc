@@ -1,0 +1,89 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home"    
+    ]
+  },
+  "flex-layout.row#home": {
+    // "props": {
+    //   "blockClass": "home"
+    // },
+    "children": [
+      "flex-layout.col#home"
+    ]
+  },
+  "flex-layout.col#home": {
+    "children": [
+      "image#electronics",
+      // "info-card",
+      "rich-text",
+      "list-context.product-list"
+    ]
+  },
+  "image#electronics": {
+    "props": {
+      "src": "https://storage-asset.msi.com/global/picture/news/2020/monitor/for-every-gamer-20200409-1.jpg",
+      "blockClass": "msi-banner"
+      // "maxWidth": "100%",
+      // "maxHeight": "80%"
+    }
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Novos Produtos",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "font": "t-heading-3"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"]
+	},
+  "product-summary.shelf": {
+    "children": [
+      "modal-trigger#quickview",
+      "product-summary-name",
+      "product-selling-price"
+    ]
+  },
+  "modal-trigger#quickview": {
+    "children": ["product-summary-image", "modal-layout#quickview"]
+  },
+  "modal-layout#quickview": {
+    "children": [
+      "product-summary-name",
+      "product-images",
+      "product-summary-sku-selector",
+      "product-summary-quantity",
+      "add-to-cart-button"
+    ]
+  }
+//   "slider-layout#home": {
+//     "children": ["info-card#1", "info-card#2"],
+//     "props": {
+//       "autoplay": {
+//         "timeout": 5000,
+//         "stopOnHover": false
+//       }
+//     }
+//   },
+//   "info-card#1": {
+//     "props": {
+//       "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+//       "isFullModeStyle": true,
+//       "headline": "Black Friday",
+//       "callToActionText": "Subscribe",
+//       "textPosition": "center"
+//     }
+//   },
+//   "info-card#2": {
+//     "props": {
+//       "imageUrl": "https://images.unsplash.com/photo-1524185962737-ea7c028a12cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+//       "isFullModeStyle": true,
+//       "headline": "Black Friday",
+//       "callToActionText": "Subscribe",
+//       "textPosition": "center"
+//     }
+//   }
+}
