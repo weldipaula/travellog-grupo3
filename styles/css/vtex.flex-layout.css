@@ -3,6 +3,10 @@
   padding: 0 0.5rem;
 }
 
+.flexRowContent--main-header {
+	border-bottom: 5px solid #974883;
+  }
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -18,7 +22,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #132031;
   color: #fff;
 }
 
@@ -43,7 +47,7 @@
 }
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: #A94590;
   padding: 14px 0px;
 }
 

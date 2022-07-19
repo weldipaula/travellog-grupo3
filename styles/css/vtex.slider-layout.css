@@ -7,6 +7,10 @@
   min-height: 450px;
 }
 
+.sliderLayoutContainer--shelf {
+	margin: 0 5rem;
+}
+
 .sliderTrackContainer {
   max-width: 100%;
 }
