@@ -39,7 +39,7 @@
 ### <h2>Documentação da API: </h2>
 
   #### Get Request's: 
-  Essa rota da api é utilizada para a configuração do hook, e retoma o número de pontos.
+  Essa rota da api é utilizada para a configuração do hook, e retoma o número de pontos que o usuário possui.
    <p></p>
    <p></p>
    <p></p>
@@ -56,9 +56,12 @@
    <p></p>
    <p></p>
    <p></p>
-   
+  
+  SERVIDOR
+
+
   #### Obs.:
-  Durante o cancelamento das compras o sistema acionaria o hook que efetuaria a retirada dos pontos no masterdata. Porém isso não foi verificado, mas seria caso         tivessemos mais tempo.
+  Durante o cancelamento das compras o sistema acionaria o hook que efetuaria a retirada dos pontos no masterdata. Porém isso não foi verificado, mas seria caso         tivessemos mais tempo. Foi feito o calculo verificando o funcionamento com Insomnia, mais não foi verificado na api que está na aws. Para os endpoins foi utilizada     a aws onde foi criado um servidor em node.js com express, o qual foi criado com ssh e certificado https para que o hook funcione corretamente.
   <p></p>
   <p></p>
   <p></p>
