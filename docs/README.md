@@ -1,65 +1,73 @@
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+<h1 align="center"> Vtex Points </h1>
+<h6 align="center"> Travellog#3 </h6>
 
-## Preview
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+<hr>
 
-## Tutorial
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
+### Descrição: 
 
-## Dependencies
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+<p> Projeto de contabilização e visualização de pontos por compra criado para o e-commerce VTEX da dona Maria.</p>
+<p> Temos como foco nesse projeto retornar os pedidos do usuário diretamente da nossa api conectada á VTEX, para assim criar um histórico de transações entre o cliente e a loja que também seja capaz de retornar o total de pontos bônus em um bloco customizável.</p>
 
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+<hr>
 
-Store GraphQL is a middleware to access all VTEX APIs.
-- [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
+### Conteúdo
 
-### Store Component Apps
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md) 
+* [Fluxograma](#Fluxograma:)
 
-### Store Pixel Apps
+* [Documentação da API](#Documentação da API:)
 
- - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
- - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
+    * [Get Request's](#Get Request's:)
+    
+    * [Post Request's](#Post Request's:)
+    
+    * [Patch Request's](#Patch Request's:)
+    
+* [Technologias Usadas](#Technologias Usadas:)
+    
+* [Organizacional](#Organizacional:)
 
-## Contributing
+* [Dificudades no desenvolvimento](#Dificudades no desenvolvimento:)
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
+### Fluxograma:
 
-## Contributors ✨
+<div align="center">
+<img src="https://user-images.githubusercontent.com/85533288/180102552-b15ea13f-289e-43ad-a4c6-57166ee05e1e.png" width="500px"/>
+</div>
+  
+<hr>
+  
+### <h2>Documentação da API: </h2>
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+  #### Get Request's: 
+   <p></p>
+   <p></p>
+   <p></p>
+   
+  #### Post Request's:
+   <p></p>
+   <p></p>
+   <p></p>
+   
+  #### Patch Request's:
+   <p></p>
+   <p></p>
+   <p></p>
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
-  </tr>
-</table>
+<hr>
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+### <h2>Tutorial de inicialização: </h2>
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<p></p>
+
+<hr>
+
+### <h2>Organizacional: </h2>
+
+<a href="https://trello.com/b/VZvKLDVt/api-pontos-organizacional" >Trello</a>
+
+<hr>
+
+<div>
+<img src="https://media.giphy.com/avatars/VTEXCommerce/vyFCi9OWdzLC.GIF" width=100px align="right"/>
+<img src="https://pbs.twimg.com/media/DyLSj2WXcAARVtw.png" width=100px align="right"/>
+</div>
