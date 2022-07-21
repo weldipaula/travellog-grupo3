@@ -38,22 +38,26 @@
   
 ### <h2>Documentação da API: </h2>
 
-  #### Get Request's:#### Essa rota da api é utilizada para a configuração do hook, e retoma o número de pontos.
+  #### Get Request's: 
+  Essa rota da api é utilizada para a configuração do hook, e retoma o número de pontos.
    <p></p>
    <p></p>
    <p></p>
    
-  #### Post Request's:#### Essa rota é usada para quando ocorre a confirmação de compra na loja
-para que tenha a validação e o salvamento dos pontos no masterdata. Verifica se já tem usuário, e se tiver acaba atualizando-o.
+  #### Post Request's: 
+  Essa rota é usada para quando ocorre a confirmação de compra na loja
+  para que tenha a validação e o salvamento dos pontos no masterdata. Verifica se já tem usuário, e se tiver acaba atualizando-o.
    <p></p>
    <p></p>
    <p></p>
    
-  #### Patch Request's:#### Caso o usuário já possui pontos no banco de ele é redirecionado para um patch que atualiza seu historíco de compras e seus pontos.
+  #### Patch Request's:
+  Caso o usuário já possui pontos no banco de ele é redirecionado para um patch que atualiza seu historíco de compras e seus pontos.
    <p></p>
    <p></p>
    <p></p>
-  #### Obs.:#### Durante o cancelamento das compras o sistema acionaria o hook que efetuaria a retirada dos pontos no masterdata. Porém isso não foi verificado, mas seria caso tivessemos mais tempo.
+  #### Obs.:
+  Durante o cancelamento das compras o sistema acionaria o hook que efetuaria a retirada dos pontos no masterdata. Porém isso não foi verificado, mas seria caso         tivessemos mais tempo.
   <p></p>
   <p></p>
   <p></p>
