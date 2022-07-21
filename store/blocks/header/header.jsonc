@@ -8,7 +8,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+    //   "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -95,7 +95,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],
@@ -112,9 +111,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-pc"
     ],
     "props": {
       "orientation": "vertical"
