@@ -61,6 +61,7 @@
       "search-bar",
       "locale-switcher",
       "login",
+	  "custom-shelf",
       "minicart.v2"
     ]
   },
@@ -96,6 +97,7 @@
       "drawer",
       "logo#mobile",
       "login",
+	  "custom-shelf",
       "minicart.v2"
     ],
     "props": {
