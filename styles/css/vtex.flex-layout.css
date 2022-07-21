@@ -3,9 +3,10 @@
   padding: 0 0.5rem;
 }
 
-.flexRowContent--main-header {
+.flexRowContent--main-header,
+.flexRowContent--main-header-mobile {
 	border-bottom: 5px solid #974883;
-  }
+}
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
