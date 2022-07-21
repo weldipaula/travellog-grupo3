@@ -45,7 +45,7 @@ const Shelf=()=>{
   })
 
   return  (
-	  user ?
+	  user !== undefined ?
       <d className={`${handles.shelfContainer}`}><p className={`${handles.shelfInfo}`}>{user} PONTOS</p></d>
     :
       ''

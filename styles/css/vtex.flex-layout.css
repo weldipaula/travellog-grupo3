@@ -35,6 +35,12 @@
   align-items: center;
   padding: 0.625rem 0.5rem;
   background-color: #f0f0f0;
+  justify-content: space-between;
+}
+
+.flexRowContent--left-header-mobile,
+.flexRowContent--right-header-mobile {
+	align-items: center;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {

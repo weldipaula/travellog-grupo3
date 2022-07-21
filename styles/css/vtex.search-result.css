@@ -20,3 +20,15 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+.searchResultContainer {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+@media screen and (min-width: 776px) {
+  .searchResultContainer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
