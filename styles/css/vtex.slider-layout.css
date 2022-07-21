@@ -8,7 +8,7 @@
 }
 
 .sliderLayoutContainer--shelf {
-	margin: 0 5rem;
+  margin: 0 5rem;
 }
 
 .sliderTrackContainer {
@@ -35,5 +35,5 @@
 }
 
 .sliderArrows--carousel {
-	color: #ffffff;
+  color: #ffffff;
 }
