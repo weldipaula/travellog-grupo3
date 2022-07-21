@@ -56,6 +56,7 @@
    <p></p>
    <p></p>
    <p></p>
+   
   #### Obs.:
   Durante o cancelamento das compras o sistema acionaria o hook que efetuaria a retirada dos pontos no masterdata. Porém isso não foi verificado, mas seria caso         tivessemos mais tempo.
   <p></p>
