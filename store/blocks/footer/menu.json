@@ -100,7 +100,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pc/d",
+        "href": "/pc?_q=pc&map=ft",
         "noFollow": true,
         "tagTitle": "PCs",
         "text": "PCs"
@@ -129,7 +129,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pc/d",
+        "href": "/pc?_q=pc&map=ft",
         "noFollow": true,
         "tagTitle": "PCs",
         "text": "PCs"
@@ -145,7 +145,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pc/notebook",
+        "href": "/notebook?_q=notebook&map=ft",
         "noFollow": false,
         "tagTitle": "Notebooks",
         "text": "Notebooks"
