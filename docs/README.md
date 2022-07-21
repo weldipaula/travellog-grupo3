@@ -64,12 +64,6 @@
   <p></p>
 <hr>
 
-### <h2>Tutorial de inicialização: </h2>
-
-<p></p>
-
-<hr>
-
 ### <h2>Organizacional: </h2>
 
 <a href="https://trello.com/b/VZvKLDVt/api-pontos-organizacional" >Trello</a>
