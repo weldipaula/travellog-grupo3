@@ -80,9 +80,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "assets/imgs/logo_travellog.png",
+      "width": "60",
+      "height": "60"
     }
   },
   "header-layout.mobile": {
@@ -122,9 +122,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/imgs/logo_travellog.png",
+      "width": "60",
+      "height": "60"
     }
   }
 }

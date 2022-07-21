@@ -1,15 +1,27 @@
 .footerLayout {
 	background-color: #132031;
+	margin-top: 3rem;
 }
 
 .row--menu-row {
   padding-right: 24px;
+  color: #ffffff;
 }
 
 .row--menu-row .rowContainer {
   align-items: flex-start;
+  color: #ffffff;
 }
 
 .row--payment-methods {
   padding-top: 16px;
+}
+
+.socialNetworkImage {
+	filter: brightness(0) invert(1);
+}
+
+.paymentMethodIconImage {
+	filter: brightness(0) invert(1);
+	margin-bottom: 1rem;
 }

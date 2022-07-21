@@ -17,11 +17,18 @@
       "height": 570,
       "preload": true,
       "images": [
+        // {
+        //   "image": "https://static.acer.com/up/Resource/Acer/Campaigns/Swift_EVO_-_The_New_Wonderful/20201106/the-new-wonderful-acerprimary-large.jpg",
+        //   "mobileImage": "https://static.acer.com/up/Resource/Acer/Campaigns/Swift_EVO_-_The_New_Wonderful/20201106/the-new-wonderful-acerprimary-large.jpg"
+        // },
+        {
+          "image": "https://storage-asset.msi.com/global/picture/banner/banner_1640576414631a2912ddb7a287c7e2e08e4b7782ef.jpeg",
+          "mobileImage": "https://storage-asset.msi.com/global/picture/banner/banner_1640576414631a2912ddb7a287c7e2e08e4b7782ef.jpeg"
+        },
         {
           "image": "https://storage-asset.msi.com/global/picture/news/2020/monitor/for-every-gamer-20200409-1.jpg",
           "mobileImage": "https://storage-asset.msi.com/global/picture/news/2020/monitor/for-every-gamer-20200409-1.jpg"
         }
-		// colocar outro banner em seguida neste array
       ]
     }
   },
