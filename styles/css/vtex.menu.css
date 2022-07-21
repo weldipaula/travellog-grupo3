@@ -1,3 +1,16 @@
 .styledLink {
 	color: #ffffff;
 }
+
+@media screen and (max-width: 776px) {
+  .styledLink--pc,
+  .styledLink--notebook,
+  .styledLink--about-us {
+    color: #727273;
+    font-size: 20px;
+  }
+
+  .menuContainerNav {
+    width: 100%;
+  }
+}

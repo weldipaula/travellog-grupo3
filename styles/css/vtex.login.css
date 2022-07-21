@@ -1,0 +1,10 @@
+.buttonLink div span div span{
+	display:block;
+	color: #A94590;
+	font-size: 24px;
+}
+
+.container {
+  justify-content: center;
+  width: 100%;
+}

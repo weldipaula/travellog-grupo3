@@ -116,3 +116,10 @@
 	display: block;
 	margin: 0px auto;
 }
+
+@media screen and (max-width: 776px) {
+	.searchBarContainer {
+		width: 90%;
+		margin: 0 auto;
+	}
+  }

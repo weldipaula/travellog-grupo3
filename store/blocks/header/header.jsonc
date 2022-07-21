@@ -94,11 +94,8 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
-      "logo#mobile",
-      "login",
-	  "custom-shelf",
-      "minicart.v2"
+      "flex-layout.row#2-mobile",
+      "flex-layout.row#3-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -107,13 +104,44 @@
       "fullWidth": true
     }
   },
+
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile"
+    ],
+    "props": {
+      "blockClass": "left-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#3-mobile": {
+    "children": [
+      "custom-shelf",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "right-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
   "drawer": {
     "children": ["menu#drawer"]
   },
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-pc"
+      "login",
+      "search-bar",
+      "menu-item#category-pc",
+      "menu-item#category-notebook",
+      "menu-item#about-us"
     ],
     "props": {
       "orientation": "vertical"
