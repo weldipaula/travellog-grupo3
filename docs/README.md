@@ -38,17 +38,17 @@
   
 ### <h2>Documentação da API: </h2>
 
-  #### Get Request's: 
+  #### Get Request's: retoma os pontos
    <p></p>
    <p></p>
    <p></p>
    
-  #### Post Request's:
+  #### Post Request's: verifica se já tem usuário, e se tiver acaba atualizando-o
    <p></p>
    <p></p>
    <p></p>
    
-  #### Patch Request's:
+  #### Patch Request's: atualiza o usuário
    <p></p>
    <p></p>
    <p></p>
